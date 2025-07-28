@@ -43,10 +43,10 @@ git restore --source <commit-hash> <file-name> (Restore a file to how it was <co
 
 # <-- Workflow (Repo already created in the account) -->
 
-1. Clone the repository
-```bash
-git clone <repository-url>
-```
+**1. Clone the repository**
+        ```bash
+        git clone <repository-url>
+        ```
 
 2. Move into the repository
 cd project
