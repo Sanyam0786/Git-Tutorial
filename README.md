@@ -1,6 +1,6 @@
 # Git-Tutorial
 
-Name : Sanyam Mujavadia
+**Name : Sanyam Mujavadia**
 
 * **Initialize a New Local Repository** : `git init`
 
