@@ -43,27 +43,47 @@ git restore --source <commit-hash> <file-name> (Restore a file to how it was <co
 
 # <-- Workflow (Repo already created in the account) -->
 
-**1. Clone the repository**
-        ```bash
-        git clone <repository-url>
-        ```
+1.  **Clone the Repository**
+    Get a local copy of the project:
+    ```bash
+    git clone <repository-url>
+    ```
 
-2. Move into the repository
-cd project
+2.  **Move into the Repository Directory**
+    Navigate to your project folder:
+    ```bash
+    cd project
+    ```
 
-3. Create a branch for a new feature
-git checkout -b branch-name
+3.  **Create a Branch for a New Feature**
+    Work on new features or fixes in an isolated branch:
+    ```bash
+    git checkout -b branch-name
+    ```
 
-4. Make changes, then stage and commit
-git add .
-git commit -m "Message"
+4.  **Make Changes, Stage, and Commit**
+    After making your code changes, prepare and save them:
+    ```bash
+    git add .
+    git commit -m "Your descriptive commit message"
+    ```
 
-5. Push your branch to the remote
-git push origin branch-name
+5.  **Push Your Branch to the Remote**
+    Share your new branch and its commits with the remote repository:
+    ```bash
+    git push origin branch-name
+    ```
 
-6. Merge the branch once reviewed
-git checkout main
-git merge branch-name(different from current checkout branch)
+6.  **Merge the Branch (After Review)**
+    Once your changes are reviewed (e.g., via a Pull Request), integrate them into the `main` branch:
+    ```bash
+    git checkout main
+    git merge branch-name
+    ```
+    *(Note: Ensure you replace `branch-name` with the actual name of your feature branch.)*
 
-7. Pull the latest changes from remote
-git pull origin main
+7.  **Pull the Latest Changes from Remote**
+    Keep your local `main` branch synchronized with the remote:
+    ```bash
+    git pull origin main
+    ```
