@@ -25,7 +25,7 @@
 
 * **Git Branch Merge** : `git merge <branch-name>`
 
-* **Git Branch Creation** : `git branch <branch-name>`
+* **Git Deleting Branch** : `git branch -d <branch-name>` ("-D" is use when the branch is committed and forcely delete the branch without merging it)
 
 * **Git Diff** : `git diff <branch-name>` (Comparing two branch), 
 `git diff <commit-hash-one>..<commit-hash-two>` (Comparing two commit)
