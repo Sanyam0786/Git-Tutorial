@@ -10,7 +10,9 @@
 
 * **Git Push** : `git push origin main`
 
-* **Git Add** : `git add <file-name>` (If there is multiple file to add then insted of using "file-name" one by one you can us "." to access all file at once)
+* **Git Add** : `git add <file-name>` (If there is multiple file to add then insted of using "file-name" one by one you can us "." to access all file at once) (Add the files in the stage area)
+
+* **Git Status** : `git status` (This command checks the status of the code that whether it is in stage area or unstage area)
 
 * **Git Commit** : `git commit -m "Message"`, 
 `git commit -am "Message"` ('-am' will directly add and commit the file through one line of command)
