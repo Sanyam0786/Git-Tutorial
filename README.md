@@ -12,7 +12,8 @@
 
 * **Git Add** : `git add <file-name>` (If there is multiple file to add then insted of using "file-name" one by one you can us "." to access all file at once)
 
-* **Git Commit** : `git commit -m "Message"` `git commit -am "Message"` ('-am' will directly add and commit the file through one line of command)
+* **Git Commit** : `git commit -m "Message"`, 
+`git commit -am "Message"` ('-am' will directly add and commit the file through one line of command)
 
 * **View Commit History** : `git log`
 
@@ -24,9 +25,13 @@
 
 * **Git Branch Creation** : `git branch <branch-name>`
 
+* **Git Diff** : `git diff <branch-name>` (Comparing two branch), 
+`git diff <commit-hash-one>..<commit-hash-two>` (Comparing two commit)
+
 * **Git Stashing** : `git stash` (Save unfinished work temporarily, to come back later),
-`git stash pop` (Restore stashed changes)
-`git stash push -- <file-name>` (For Stashing a specific file)
+`git stash list` (Listout all the stash),
+`git stash pop` (Restore stashed changes),
+`git stash push -- <file-name>` (For Stashing a specific file),
 `git stash push -m "Message" -- <file-name>` (Adding message in the stash file)
 
 * **Git Revert** : `git revert <commit-hash>` (Creates a new commit that reverses a previous commit) (Better to use if the commit is push in the repo)
@@ -35,11 +40,13 @@
 
 * **Git Fork** : Go to the repo which you wanna fork and then there is a button called "Fork" in the repo that create a copy repo in your own account and you can contribute your changes to the main repo by sending pull request to the main account branch and if the user found your changes usefull they will accept the pull request or just give some comment on your pull request. 
 
-* **Git Restore** : `git restore <file-name>` (It discards unstaged changes in your working files and reverts them to the last committed version),
-`git restore --staged <file-name>` (Unstage a file and keep changes in working directory),
+* **Git Restore** : `git restore <file-name>` (It discards unstaged changes in your working files and reverts them to the last committed version), 
+`git restore --staged <file-name>` (Unstage a file and keep changes in working directory), 
 `git restore --source <commit-hash> <file-name>` (Restore a file to how it was <commit-hash> ago)
 
-* **Git Rebase** : `git rebase <branch-name>` (99% not to do rebase in main branch) (Same as merge but not give any extra commit) `git rebase --abort` (Cancels the rebase process and returns to the original branch state before rebasing) `git rebase --continue` (After fixing conflicts during rebase, use this to continue applying the remaining commits)
+* **Git Rebase** : `git rebase <branch-name>` (99% not to do rebase in main branch) (Same as merge but not give any extra commit), 
+`git rebase --abort` (Cancels the rebase process and returns to the original branch state before rebasing), 
+`git rebase --continue` (After fixing conflicts during rebase, use this to continue applying the remaining commits)
 
 <-------------------------------------------------------------------------------------------------->
 
