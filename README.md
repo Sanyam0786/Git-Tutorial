@@ -12,7 +12,7 @@
 
 * **Git Add** : `git add <file-name>` (If there is multiple file to add then insted of using "file-name" one by one you can us "." to access all file at once)
 
-* **Git Commit** : `git commit -m "Message"`
+* **Git Commit** : `git commit -m "Message"` `git commit -am "Message"` ('-am' will directly add and commit the file through one line of command)
 
 * **View Commit History** : `git log`
 
@@ -38,6 +38,8 @@
 * **Git Restore** : `git restore <file-name>` (It discards unstaged changes in your working files and reverts them to the last committed version),
 `git restore --staged <file-name>` (Unstage a file and keep changes in working directory),
 `git restore --source <commit-hash> <file-name>` (Restore a file to how it was <commit-hash> ago)
+
+* **Git Rebase** : `git rebase <branch-name>` (99% not to do rebase in main branch) (Same as merge but not give any extra commit)
 
 <-------------------------------------------------------------------------------------------------->
 
