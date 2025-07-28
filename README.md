@@ -39,7 +39,7 @@
 `git restore --staged <file-name>` (Unstage a file and keep changes in working directory),
 `git restore --source <commit-hash> <file-name>` (Restore a file to how it was <commit-hash> ago)
 
-* **Git Rebase** : `git rebase <branch-name>` (99% not to do rebase in main branch) (Same as merge but not give any extra commit)
+* **Git Rebase** : `git rebase <branch-name>` (99% not to do rebase in main branch) (Same as merge but not give any extra commit) `git rebase --abort` (Cancels the rebase process and returns to the original branch state before rebasing) `git rebase --continue` (After fixing conflicts during rebase, use this to continue applying the remaining commits)
 
 <-------------------------------------------------------------------------------------------------->
 
