@@ -39,7 +39,7 @@
 `git restore --staged <file-name>` (Unstage a file and keep changes in working directory),
 `git restore --source <commit-hash> <file-name>` (Restore a file to how it was <commit-hash> ago)
 
-* **Git Rebase** : `git rebase <branch-name>` (99% not to do rebase in main branch) (Same as merge but not give any extra commit)
+* **Git Rebase** : `git rebase <branch-name>` (99% not to do rebase in main branch) (Same as merge but not give any extra commit)aa
 
 <-------------------------------------------------------------------------------------------------->
 
